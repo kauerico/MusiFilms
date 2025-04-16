@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cabecalho {
+    background-color: red;
+    color: white;
+    padding: 20px;
+  }
+  
+  .filme {
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+  }
+  
+  .filme img {
+    width: 120px;
+    margin-right: 10px;
+  }
+  
+  .descricao {
+    flex: 1;
+    text-align: left;
+    padding: 0 10px;
+  }
+  
+  .botao-seta {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 40px solid red;
+  }
+
+  
